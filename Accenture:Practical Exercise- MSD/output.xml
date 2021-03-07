@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20210307 23:51:18.009" rpa="false">
+<suite id="s1" name="Task2" source="C:\Users\badgujah\workspace\Task2">
+<suite id="s1-s1" name="TestSuite" source="C:\Users\badgujah\workspace\Task2\TestSuite">
+<suite id="s1-s1-s1" name="Adding Products  In Carts" source="C:\Users\badgujah\workspace\Task2\TestSuite\Adding_Products _In_Carts.robot">
+<test id="s1-s1-s1-t1" name="Search For Product Category And Add Products In Cart">
+<kw name="Open URL" library="CommanKeywords" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20210307 23:51:18.819" level="FAIL">Variable '${url}' not found.</msg>
+<status status="FAIL" starttime="20210307 23:51:18.817" endtime="20210307 23:51:18.819"></status>
+</kw>
+<status status="FAIL" starttime="20210307 23:51:18.815" endtime="20210307 23:51:18.819"></status>
+</kw>
+<status status="FAIL" starttime="20210307 23:51:18.814" endtime="20210307 23:51:18.820" critical="yes">Setup failed:
+Variable '${url}' not found.</status>
+</test>
+<doc>Test Suit to verify that the user is able to login and verifying user role functionlity</doc>
+<status status="FAIL" starttime="20210307 23:51:18.148" endtime="20210307 23:51:18.821"></status>
+</suite>
+<status status="FAIL" starttime="20210307 23:51:18.144" endtime="20210307 23:51:18.824"></status>
+</suite>
+<status status="FAIL" starttime="20210307 23:51:18.083" endtime="20210307 23:51:18.826"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Task2">Task2</stat>
+<stat pass="0" fail="1" id="s1-s1" name="TestSuite">Task2.TestSuite</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="Adding Products  In Carts">Task2.TestSuite.Adding Products  In Carts</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210307 23:51:18.787" level="ERROR">Error in file 'C:\Users\badgujah\workspace\Task2\Keywords\CommanKeywords.robot': UnicodeDecodeError: 'utf-8' codec can't decode byte 0x94 in position 86: invalid start byte</msg>
+<msg timestamp="20210307 23:51:18.812" level="ERROR">Error in file 'C:\Users\badgujah\workspace\Task2\ObjectRepo\Task2Variables.robot': Setting variable '${SELECT_PRODUCT}' failed: Variable '${textToReplace}' not found.</msg>
+</errors>
+</robot>
